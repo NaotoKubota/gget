@@ -13,8 +13,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Upgrade pip
 RUN pip install --upgrade pip
 
-# Install TOBIAS
-RUN pip install gget==0.1.2
+# Install gget
+RUN pip install gget==0.27.2
 
 # Set working directory
 WORKDIR /home
